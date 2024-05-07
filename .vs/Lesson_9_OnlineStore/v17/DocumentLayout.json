@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\RustamH\\Downloads\\Lesson_9_OnlineStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80815D93-5A92-4F3E-A50A-3DEF68F30E60}|Lesson_9_OnlineStore_MVC\\Lesson_9_OnlineStore_MVC.csproj|c:\\rustamh\\downloads\\lesson_9_onlinestore\\lesson_9_onlinestore_mvc\\views\\product\\getallproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80815D93-5A92-4F3E-A50A-3DEF68F30E60}|Lesson_9_OnlineStore_MVC\\Lesson_9_OnlineStore_MVC.csproj|solutionrelative:lesson_9_onlinestore_mvc\\views\\product\\getallproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80815D93-5A92-4F3E-A50A-3DEF68F30E60}|Lesson_9_OnlineStore_MVC\\Lesson_9_OnlineStore_MVC.csproj|c:\\rustamh\\downloads\\lesson_9_onlinestore\\lesson_9_onlinestore_mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80815D93-5A92-4F3E-A50A-3DEF68F30E60}|Lesson_9_OnlineStore_MVC\\Lesson_9_OnlineStore_MVC.csproj|solutionrelative:lesson_9_onlinestore_mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80815D93-5A92-4F3E-A50A-3DEF68F30E60}|Lesson_9_OnlineStore_MVC\\Lesson_9_OnlineStore_MVC.csproj|c:\\rustamh\\downloads\\lesson_9_onlinestore\\lesson_9_onlinestore_mvc\\views\\shared\\adminpartials\\siderbarpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80815D93-5A92-4F3E-A50A-3DEF68F30E60}|Lesson_9_OnlineStore_MVC\\Lesson_9_OnlineStore_MVC.csproj|solutionrelative:lesson_9_onlinestore_mvc\\views\\shared\\adminpartials\\siderbarpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAllProducts.cshtml",
+              "DocumentMoniker": "C:\\RustamH\\Downloads\\Lesson_9_OnlineStore\\Lesson_9_OnlineStore_MVC\\Views\\Product\\GetAllProducts.cshtml",
+              "RelativeDocumentMoniker": "Lesson_9_OnlineStore_MVC\\Views\\Product\\GetAllProducts.cshtml",
+              "ToolTip": "C:\\RustamH\\Downloads\\Lesson_9_OnlineStore\\Lesson_9_OnlineStore_MVC\\Views\\Product\\GetAllProducts.cshtml",
+              "RelativeToolTip": "Lesson_9_OnlineStore_MVC\\Views\\Product\\GetAllProducts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T19:39:13.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\RustamH\\Downloads\\Lesson_9_OnlineStore\\Lesson_9_OnlineStore_MVC\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Lesson_9_OnlineStore_MVC\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\RustamH\\Downloads\\Lesson_9_OnlineStore\\Lesson_9_OnlineStore_MVC\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Lesson_9_OnlineStore_MVC\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:15:34.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SiderbarPartialView.cshtml",
+              "DocumentMoniker": "C:\\RustamH\\Downloads\\Lesson_9_OnlineStore\\Lesson_9_OnlineStore_MVC\\Views\\Shared\\AdminPartials\\SiderbarPartialView.cshtml",
+              "RelativeDocumentMoniker": "Lesson_9_OnlineStore_MVC\\Views\\Shared\\AdminPartials\\SiderbarPartialView.cshtml",
+              "ToolTip": "C:\\RustamH\\Downloads\\Lesson_9_OnlineStore\\Lesson_9_OnlineStore_MVC\\Views\\Shared\\AdminPartials\\SiderbarPartialView.cshtml",
+              "RelativeToolTip": "Lesson_9_OnlineStore_MVC\\Views\\Shared\\AdminPartials\\SiderbarPartialView.cshtml",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAE8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T18:08:52.131Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
