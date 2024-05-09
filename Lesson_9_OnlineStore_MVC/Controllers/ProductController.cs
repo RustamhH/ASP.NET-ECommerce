@@ -40,68 +40,36 @@ namespace Lesson_9_OnlineStore_MVC.Controllers
         }
 
 
-
         [HttpGet]
-        public IActionResult RemoveProduct()
+        public IActionResult AddTag()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> RemoveProduct(Product product)
+        public async Task<IActionResult> AddTag(Tag tag)
         {
-            await _productRepository.DeleteAsync(product.Id);
-            return View(product);
+            bool exist = false;
+            foreach (var item in await _TagRepository.GetAllAsync())
+            {
+                if (item.Name == tag.Name)
+                {
+                    exist = true;
+                }
+            }
+            if (!exist)
+            {
+                await _TagRepository.AddAsync(tag);
+            }
+            return View();
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //[HttpGet]
-        //public async Task<IActionResult> AddTag(int id)
-        //{
-        //    var category = await _productRepository.GetByIdAsync(id);
-        //    ViewBag.Tags = await _TagRepository.GetAllAsync();
-        //    return View(category);
-        //}
-
-        //[HttpPost]
-        //public async Task<IActionResult> AddTag(int id, int[] tags)
-        //{
-        //    var category = await _productRepository.GetByidWithTags(id);
-
-        //    foreach (var tagId in tags)
-        //    {
-        //        var tag = await _TagRepository.GetByIdAsync(tagId);
-        //        category.Tags.Add(tag);
-        //    }
-
-        //    await _productRepository.SaveChanges();
-        //    return RedirectToAction("AddTag");
-        //}
-
+        [HttpGet]
+        public async Task<IActionResult> GetAllTags()
+        {
+            var tags = await _TagRepository.GetAllAsync();
+            return View(tags);
+        }
 
         public IActionResult Index()
         {

@@ -1,4 +1,5 @@
 ﻿using Lesson_9_OnlineStore_DataAccess.Reposiotries.Abstracts;
+using Lesson_9_OnlineStore_DataAccess.Reposiotries.Concretes;
 using Lesson_9_OnlineStore_Domain.Entities.Concretes;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,4 +26,7 @@ public class TagController : Controller
         await _tagRepository.AddAsync(tag);
         return View();
     }
+
+
+    
 }

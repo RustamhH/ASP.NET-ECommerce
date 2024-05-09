@@ -34,12 +34,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0QWxsQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/RustamH/Downloads/Lesson_9_OnlineStore/Lesson_9_OnlineStore_MVC/Views/Category/GetAllTags.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0QWxsVGFncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/RustamH/Downloads/Lesson_9_OnlineStore/Lesson_9_OnlineStore_MVC/Views/Product/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/RustamH/Downloads/Lesson_9_OnlineStore/Lesson_9_OnlineStore_MVC/Views/Product/AddTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRUYWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/RustamH/Downloads/Lesson_9_OnlineStore/Lesson_9_OnlineStore_MVC/Views/Product/GetAllProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRBbGxQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/RustamH/Downloads/Lesson_9_OnlineStore/Lesson_9_OnlineStore_MVC/Views/Product/GetAllTags.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRBbGxUYWdzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/RustamH/Downloads/Lesson_9_OnlineStore/Lesson_9_OnlineStore_MVC/Views/Shared/AdminPartials/FooterPartialView.cshtml]

@@ -1,5 +1,6 @@
 ﻿
 using Lesson_9_OnlineStore_DataAccess.Reposiotries.Abstracts;
+using Lesson_9_OnlineStore_DataAccess.Reposiotries.Concretes;
 using Lesson_9_OnlineStore_Domain.Entities.Concretes;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
@@ -50,26 +51,34 @@ public class CategoryController : Controller
         return View(categories);
     }
 
-    //[HttpGet]
-    //public async Task<IActionResult> AddTag(int id)
-    //{
-    //    var category = await _categoryRepository.GetByIdAsync(id);
-    //    ViewBag.Tags = await _TagRepository.GetAllAsync();
-    //    return View(category);
-    //}
+    [HttpGet]
+    public IActionResult AddTag()
+    {
+        return View();
+    }
 
-    //[HttpPost]
-    //public async Task<IActionResult> AddTag(int id, int[] tags)
-    //{
-    //    var category = await _categoryRepository.GetByidWithTags(id);
+    [HttpPost]
+    public async Task<IActionResult> AddTag(Tag tag)
+    {
+        bool exist = false;
+        foreach (var item in await _TagRepository.GetAllAsync())
+        {
+            if (item.Name == tag.Name)
+            {
+                exist = true;
+            }
+        }
+        if (!exist)
+        {
+            await _TagRepository.AddAsync(tag);
+        }
+        return View();
+    }
 
-    //    foreach (var tagId in tags)
-    //    {
-    //        var tag = await _TagRepository.GetByIdAsync(tagId);
-    //        category.Tags.Add(tag);
-    //    }
-
-    //    await _categoryRepository.SaveChanges();
-    //    return RedirectToAction("AddTag");
-    //}
+    [HttpGet]
+    public async Task<IActionResult> GetAllTags()
+    {
+        var tags = await _TagRepository.GetAllAsync();
+        return View(tags);
+    }
 }

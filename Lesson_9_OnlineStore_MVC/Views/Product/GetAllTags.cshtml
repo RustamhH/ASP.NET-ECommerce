@@ -1,0 +1,12 @@
+﻿@model List<Tag>
+
+<div class="d-flex container row">
+    @foreach (var item in Model)
+    {
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">@item.Name</h5>
+            </div>
+        </div>
+    }
+</div>
